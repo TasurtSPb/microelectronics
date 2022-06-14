@@ -2,8 +2,8 @@
 Description=Controller of NFC reader, lock, UHF reader, logements.
 
 [Service]
-ExecStart=/usr/bin/python3 /home/pi/artmp/v4/main.py
-WorkingDirectory=/home/pi/artmp/v4
+ExecStart=/usr/bin/python3 /home/scripts/modules/main.py
+WorkingDirectory=/home/scripts/modules
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=lockauth
